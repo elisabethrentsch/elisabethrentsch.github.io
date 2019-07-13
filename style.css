@@ -1,0 +1,132 @@
+/* Write some CSS below */
+body {
+
+	font-family: "Abril Fatface", cursiv;
+	color:#292F36;
+	letter-spacing: 0.9px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #FF6B6B;
+	font-weight: 600;
+
+}
+
+a:hover {
+
+	color:#292F36;
+	transition: .3s;
+
+}
+
+h3 , h4 {
+	color: #4F545A;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size:39px;
+}
+
+p {
+	font-family: "DM Serif Text", Serif;
+
+}
+
+.cta {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 600;
+	background-color: #FF6B6B; 
+	padding: 10px 25px;
+	border-radius: 4px;
+	margin: 20px;
+	transition: .3s;
+
+
+}
+
+.banner {
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/flowerbanner2.jpg');
+	background-size: cover;
+	background-position:center;
+	height: 250px;
+	color: #FFFFFF;
+	padding: 150px 0;
+
+}
+
+.card {
+	padding: 24px;
+	margin: 8px;
+	width: 350px;
+	border-radius: 6px;
+	background-color: #F5EFF8;
+	text-align: center;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+}
+
+.card-single {
+	padding: 24px;
+	margin: 8px;
+	width: 350px;
+	border-radius: 6px;
+	margin-left:80px;
+	background-color: #F5EFF8;
+}
+
+.card-single img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.devider {
+	color: #4F545A;
+	display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.devider > span {
+    position: relative;
+    display: inline-block;
+}
+
+.devider > span:before,
+.devider > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    height: 1px;
+    background: #4F545A;
+}
+
+.devider > span:before {
+    right: 100%;
+    margin-right: 30px;
+}
+
+.devider > span:after {
+    left: 100%;
+    margin-left: 30px;
+}
+
+#footer {
+	font-family: "DM Serif Text", Serif;
+
+}
